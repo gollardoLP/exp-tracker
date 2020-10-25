@@ -17,6 +17,10 @@ export const AddTransaction = () => {
     }
 
     addTransaction(newTransaction);
+    
+    //Make form empty when submitted
+    setText("");
+    setAmount(0);
   }
 
   return (
